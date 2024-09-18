@@ -14,7 +14,7 @@ import ch.didierviret.hr_api.service.EmployeeService;
 
 /* @WebMvcTest déclenche le mécanisme permettant de tester les controllers */
 @WebMvcTest(controllers = EmployeeController.class)
-public class EmployeeControllerTest {
+public class EmployeeControllerUnitTest {
 
     @Autowired
     /* MockMvc permet de simuler des requêtes HTTP avec la méthode "perform" */
