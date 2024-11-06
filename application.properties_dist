@@ -1,0 +1,10 @@
+# Variable to test the usage of properties
+name=name-in-local-application-properties
+
+# Tomcat configuration
+server.port=${PORT:9000}
+
+# Database connection
+spring.datasource.url=jdbc:mysql://localhost:3306/hrapi
+spring.datasource.username=root
+spring.datasource.password=
